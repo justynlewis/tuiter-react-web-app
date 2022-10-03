@@ -1,0 +1,86 @@
+html {
+    width: 47%;
+}
+
+body {
+    margin: 0px;
+}
+
+hr {
+    margin: 0px;
+}
+
+.wd-bookmark-header {
+    font-weight: 999;
+    font-size: 20px;
+}
+
+
+.wd-user-handle {
+    font-size: 13px;
+}
+
+.wd-top-section {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.wd-pfp {
+    border-radius: 25px;
+    height: 48px;
+    margin: 12px 12px 0px 16px;
+    width: 48px;
+}
+
+.wd-name-and-tag {
+    float: top;
+}
+
+.wd-bookmark-main {
+    display: flex;
+}
+
+.wd-bottom-section {
+    font-size: 15px;
+    padding: 10px 10px 10px 0px;
+}
+
+.wd-white-text-default {
+    color: white;
+}
+
+.wd-main-text {
+    margin-bottom: 12px;
+    margin-right: 16px;
+}
+
+.wd-main-image {
+    border-bottom: thin solid RGB(110, 118, 125);
+    border-radius: 25px 25px 0px 0px;
+    height: 264px;
+    width: 504px;
+}
+
+.wd-title-and-text {
+    padding: 12px;
+}
+
+.wd-border-container {
+    border: thin solid RGB(110, 118, 125);
+    border-radius: 25px;
+}
+
+.wd-tuit-metadata {
+    display: flex;
+    gap: 50px;
+    justify-content: flex-start;
+    margin-top: 12px;
+}
+
+.wd-metadata-icon {
+    padding: 12px;
+}
+
+.wd-heart {
+    color: #fd5c63;
+}
