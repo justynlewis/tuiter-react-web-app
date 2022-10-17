@@ -1,0 +1,4 @@
+const PostSummaryItem = (post) => {
+    return(`
+    `);
+}

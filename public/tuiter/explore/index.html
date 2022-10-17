@@ -1,184 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Explore</title>
-    <link rel="stylesheet" href="index.css">
     <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-          rel="stylesheet"/>
+    <link href="../../vendors/bootswatch/bootstrap.min.css" rel="stylesheet"/>
+    <link href="index.css" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/a6b4c01a43.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+            crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Explore screen</title>
 </head>
 <body>
 
-<div class="container row mt-2 ms-5">
-    <div class="col-xxl-2 col-xl-2 col-lg-1 col-md-2 col-sm-2 pe-0">
-            <ul class="list-group">
-                <li class="wd-left-nav-item list-group-item pt-1 pb-1">
-                    <i class="fa-brands fa-twitter"></i></li>
-                <li class="wd-left-nav-item list-group-item pt-1 pb-1">
-                    <i class="fa-solid fa-house-chimney me-1"></i>
-                    <span class="d-xxl-inline d-xl-inline d-lg-none d-md-none d-sm-none">Home</span>
-                </li>
-                <li class="wd-left-nav-item list-group-item active pt-1 pb-1">
-                    <i class="fa-solid fa-hashtag me-1 "></i>
-                    <span class="d-xxl-inline d-xl-inline d-lg-none d-md-none d-sm-none">Explore</span>
-                </li>
-                <li class="wd-left-nav-item list-group-item pt-1 pb-1">
-                    <i class="fa-solid fa-bell me-1"></i>
-                    <span class="d-xxl-inline d-xl-inline d-lg-none d-md-none d-sm-none">Notifications</span>
-                </li>
-                <li class="wd-left-nav-item list-group-item pt-1 pb-1">
-                    <i class="fa-solid fa-envelope me-1"></i>
-                    <span class="d-xxl-inline d-xl-inline d-lg-none d-md-none d-sm-none">Messages</span>
-                </li>
-                <li class="wd-left-nav-item list-group-item pt-1 pb-1">
-                    <i class="fa-solid fa-bookmark me-1"></i>
-                    <span class="d-xxl-inline d-xl-inline d-lg-none d-md-none d-sm-none">Bookmarks</span>
-                </li>
-                <li class="wd-left-nav-item list-group-item pt-1 pb-1">
-                    <i class="fa-solid fa-list me-1"></i>
-                    <span class="d-xxl-inline d-xl-inline d-lg-none d-md-none d-sm-none">Lists</span>
+<div class="container" id="wd-explore"></div>
+<script src="index.js" type="module"></script>
 
-                </li>
-                <li class="wd-left-nav-item list-group-item pt-1 pb-1">
-                    <i class="fa-solid fa-user me-1"></i>
-                    <span class="d-xxl-inline d-xl-inline d-lg-none d-md-none d-sm-none">Profile</span>
-
-                </li>
-                <li class="wd-left-nav-item list-group-item pt-1 pb-1 rounded-bottom">
-                    <i class="fa-solid fa-comment-dots me-1"></i>
-                    <span class="d-xxl-inline d-xl-inline d-lg-none d-md-none d-sm-none">More</span>
-                </li>
-                <button class="btn btn-primary mt-2 rounded-pill w-100" type="button">Tweet</button>
-            </ul>
-    </div>
-
-
-
-
-    <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-10 col-sm-10 mb-0">
-        <div class="wd-main-content">
-
-
-            <div class="row wd-main-top-section">
-                <div class="col-11 position-relative">
-                    <i class="fa-solid fa-magnifying-glass fa-sm position-absolute start-0 ms-4 mt-3 pt-1"></i>
-                    <input type="text"
-                               class="form-control wd-searchbar rounded-pill ps-5 mb-2"
-                               placeholder="Search Twitter">
-                </div>
-                <div class="col-1 p-0 mt-1">
-                    <i class="fa-solid fa-gear fa-xl "></i>
-                </div>
-            </div>
-
-
-                <ul class="nav nav-tabs border-bottom-">
-                    <li class="nav-item p-0">
-                        <a class="nav-link active p-2 ps-3 pe-3" href="for-you.html">For You</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link p-2 ps-3 pe-3" href="trending.html">Trending</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link p-2 ps-3 pe-3" href="news.html">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link p-2 ps-3 pe-3" href="sports.html">Sports</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link p-2 ps-3 pe-3 d-sm-none d-md-flex" href="entertainment.html">Entertainment</a>
-                    </li>
-                </ul>
-            <div class="wd-main-image-area position-relative">
-                <img class="wd-main-image w-100 mt-1 position-relative" src="../images/starship.jpg" alt="starship.jpg">
-                <h2 class="text-light ms-2 position-absolute bottom-0 fw-bold">SpaceX's Starship</h2>
-            </div>
-
-
-                    <ul class="list-group mb-4">
-                        <li class="list-group-item pt-1 ps-3 pb-0 pe-0">
-                            <img class="float-end ms-2 me-2 mt-3" src="../images/react.png" alt="react.png">
-                            <p class="mt-0 mb-0">Web Development</p>
-                            <p class="mb-0">
-                                <span class="fw-bold text-dark">ReactJS <i class="fa-solid fa-circle-check fa-xs"> </i> </span>  - 2h
-                            </p>
-                            <p class="fw-bold text-dark mb-2">React.js is a component based front end library that makes it
-                                very easy to build Single Page Applications or SPAs</p>
-                        </li>
-                        <li class="list-group-item pt-1 ps-3 pb-0 pe-0">
-                            <img class="float-end ms-2 me-2 mt-2" src="../images/js.png" alt="js.png">
-                            <p class="mb-0">
-                                <strong class="fw-bold text-dark">JavaScript <i class="fa-solid fa-circle-check fa-xs"></i> </strong> - 2h
-                            </p>
-                            <p class="fw-bold text-dark mb-0">
-                                JavaScript is a programming language that can run on browsers
-                                as well as desktops
-                            </p>
-                            <p class="mb-2">123K Tweets</p>
-                        </li>
-                        <li class="list-group-item pt-1 ps-3 pb-0 pe-0">
-                            <img class="float-end ms-2 me-2 mt-2" src="../images/jquery.png" alt="jquery.png">
-                            <p class="mt-0 mb-0">Web Development</p>
-                            <p class="mb-0">
-                                <span class="fw-bold text-dark">jQuery</span>
-                            </p>
-                            <p class="mb-4">123K Tweets</p>
-                        </li>
-                        <li class="list-group-item pt-1 ps-3 pb-0 pe-0">
-                            <img class="float-end ms-2 me-2 mt-2" src="../images/node.png" alt="node.png">
-                            <p class="mt-0 mb-0">Web Development</p>
-                            <p class="mb-0">
-                                <span class="fw-bold text-dark">NodeJS <i class="fa-solid fa-circle-check fa-xs"> </i> </span>  - 2h
-                            </p>
-                            <p class="mb-4">123K Tweets</p>
-                        </li>
-                    </ul>
-
-
-        </div>
-    </div>
-
-
-
-    <div class="col-xxl-4 col-xl-4 col-lg-4 d-xxl-flex d-xl-flex d-lg-flex d-md-none d-sm-none wd-wtf list-group ms-0 ps-0 pe-0">
-        <ul class="list-group">
-            <li class="wd-wtf-right-item list-group-item fw-bold text-dark">Who to Follow</li>
-            <li class="wd-wtf-right-item list-group-item">
-                <img class="float-start rounded-circle me-2" src="../images/java.png" alt="java.png">
-                <button class="btn btn-primary float-end mt-2 rounded-pill" type="button">Follow</button>
-                <p class="fw-bold text-dark m-0">Java <i class="fa-solid fa-circle-check fa-xs"></i></p>
-                <p class="mb-0">@Java</p>
-            </li>
-            <li class="wd-wtf-right-item list-group-item">
-                <img class="float-start rounded-circle me-2" src="../images/relativity.png" alt="relativity.png">
-                <button class="btn btn-primary float-end mt-2 rounded-pill" type="button">Follow</button>
-                <p class="fw-bold text-dark m-0">Relativity Space <i class="fa-solid fa-circle-check fa-xs"></i></p>
-                <p class="mb-0">@relativityspace</p>
-            </li>
-            <li class="wd-wtf-right-item list-group-item">
-                <img class="float-start rounded-circle me-2" src="../images/virgin-1.svg" alt="virginG.png">
-                <button class="btn btn-primary float-end mt-2 rounded-pill" type="button">Follow</button>
-                <p class="fw-bold text-dark m-0">Virgin Galactic <i class="fa-solid fa-circle-check fa-xs"></i></p>
-                <p class="mb-0">@virgingalactic</p>
-            </li>
-            <li class="wd-wtf-right-item list-group-item">
-                <img class="float-start rounded-circle me-2" src="../images/NASA_logo.svg.webp" alt="nasa.png">
-                <button class="btn btn-primary float-end mt-2 rounded-pill" type="button">Follow</button>
-                <p class="fw-bold text-dark m-0">NASA <i class="fa-solid fa-circle-check fa-xs"></i></p>
-                <p class="mb-0">@NASA</p>
-            </li>
-            <li class="wd-wtf-right-item list-group-item">
-                <img class="float-start rounded-circle me-2" src="../images/Tesla_T_symbol.svg.png" alt="tesla.png">
-                <button class="btn btn-primary float-end mt-2 rounded-pill" type="button">Follow</button>
-                <p class="fw-bold text-dark m-0">Tesla <i class="fa-solid fa-circle-check fa-xs"></i></p>
-                <p class="mb-0">@Tesla</p>
-            </li>
-        </ul>
-    </div>
-
-
-</div>
 </body>
-</html>

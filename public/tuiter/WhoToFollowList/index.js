@@ -1,0 +1,28 @@
+/* eslint-env jquery */
+import WhoToFollowListItem from "./WhoToFollowListItem.js";
+import who from "./who.js";
+
+const WhoToFollowList = () => {
+    return(`
+        <ul class="list-group">
+            ${
+                who.map(who => {
+                    return (WhoToFollowListItem(who));
+                }).join('')
+            }
+        </ul>
+    `);
+}
+
+// function WhoToFollowList() {
+//     $('#wd-explore').append(`
+//     <ul class="list-group">
+//             ${
+//         who.map(who => {
+//             return (WhoToFollowListItem(who));
+//         }).join('')
+//     }
+//         </ul>
+//     `);
+// }
+export default WhoToFollowList;
