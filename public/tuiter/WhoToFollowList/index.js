@@ -5,6 +5,8 @@ import who from "./who.js";
 const WhoToFollowList = () => {
     return(`
         <ul class="list-group">
+        <li class="list-group-item fw-bold text-white">Who to Follow</li>
+
             ${
                 who.map(who => {
                     return (WhoToFollowListItem(who));
@@ -14,15 +16,4 @@ const WhoToFollowList = () => {
     `);
 }
 
-// function WhoToFollowList() {
-//     $('#wd-explore').append(`
-//     <ul class="list-group">
-//             ${
-//         who.map(who => {
-//             return (WhoToFollowListItem(who));
-//         }).join('')
-//     }
-//         </ul>
-//     `);
-// }
 export default WhoToFollowList;
