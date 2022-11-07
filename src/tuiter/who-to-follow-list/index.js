@@ -1,13 +1,16 @@
 import React from "react";
-import whoArray from './who.json';
 import WhoToFollowListItem
     from "./who-to-follow-list-item";
+import {useSelector} from "react-redux";
 
 const WhoToFollowList = () => {
+    const whoArray = useSelector(
+        (state) => state.who
+    );
     return(
         <ul className="list-group">
             <li className="list-group-item fw-bold text-black">
-                Who to Follow
+                Who to Follow!!
             </li>
             {
                 whoArray.map(who =>
