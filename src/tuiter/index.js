@@ -11,9 +11,9 @@ import HomeComponent from "./home";
 
 const store = configureStore(
     {reducer: {
-        who: whoReducer,
-            tuits: tuitsReducer
-    }
+            who: whoReducer,
+            tuitsData: tuitsReducer
+        }
     }
 )
 function Tuiter() {
