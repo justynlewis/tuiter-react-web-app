@@ -1,7 +1,6 @@
 import React from "react";
 import NavigationSidebar from "./NavigationSidebar";
 import WhoToFollowList from "./who-to-follow-list";
-import ExploreComponent from "./explore";
 import {Provider} from "react-redux";
 import {configureStore} from "@reduxjs/toolkit";
 import whoReducer from "./reducers/who-reducer";
