@@ -5,7 +5,6 @@ import {Provider} from "react-redux";
 import {configureStore} from "@reduxjs/toolkit";
 import whoReducer from "./reducers/who-reducer";
 import tuitsReducer from "./reducers/tuits-reducer";
-import TuitsList from "./tuits/TuitsList";
 import HomeComponent from "./home";
 
 const store = configureStore(

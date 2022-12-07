@@ -1,0 +1,89 @@
+[33mcommit c40e21b21b7e6c22c22ec96735f52364e3f0740f[m[33m ([m[1;36mHEAD -> [m[1;32ma9[m[33m, [m[1;31morigin/a9[m[33m, [m[1;31morigin/a8[m[33m, [m[1;32ma8[m[33m)[m
+Author: justynlewis <95379904+justynlewis@users.noreply.github.com>
+Date:   Wed Nov 30 23:54:31 2022 -0500
+
+    a9 mongo fa22
+
+[33mcommit 3d751abf1053287f14beb4ead5e70e81801c69f3[m
+Author: justynlewis <95379904+justynlewis@users.noreply.github.com>
+Date:   Mon Nov 21 19:35:17 2022 -0500
+
+    a8 REST fa22
+
+[33mcommit e9c058eb4597be78ac7a5f478ccba06c6a3c5e55[m[33m ([m[1;32ma7[m[33m)[m
+Author: justynlewis <95379904+justynlewis@users.noreply.github.com>
+Date:   Mon Nov 21 18:45:18 2022 -0500
+
+    first commit
+
+[33mcommit 70ebf86715b5d779c08c85b32aaaa660b943e472[m[33m ([m[1;31morigin/a7[m[33m)[m
+Author: justynlewis <95379904+justynlewis@users.noreply.github.com>
+Date:   Mon Nov 7 03:13:52 2022 -0500
+
+    a7 redux fa22
+
+[33mcommit af6f2f063a034eae2f0b9035a8cd73e89f546682[m[33m ([m[1;31morigin/A6[m[33m, [m[1;32mA6[m[33m)[m
+Author: justynlewis <95379904+justynlewis@users.noreply.github.com>
+Date:   Sun Oct 23 22:21:38 2022 -0400
+
+    A6 react first commit
+
+[33mcommit 7c1fb706852ca0341eb21784c1dfe8d410e6c45f[m[33m ([m[1;31morigin/A5[m[33m, [m[1;32mA5[m[33m)[m
+Author: justynlewis <95379904+justynlewis@users.noreply.github.com>
+Date:   Mon Oct 17 00:23:56 2022 -0400
+
+    JS A5 commit 2
+
+[33mcommit 78e1b4902a9343da614a5a73f8fadf0a55cb0733[m
+Author: justynlewis <95379904+justynlewis@users.noreply.github.com>
+Date:   Sun Oct 16 23:07:24 2022 -0400
+
+    first commit JS a5
+
+[33mcommit af1a1051dedeb033a1d02d9751506aa047169578[m[33m ([m[1;31morigin/A4[m[33m, [m[1;32mA4[m[33m)[m
+Author: justynlewis <95379904+justynlewis@users.noreply.github.com>
+Date:   Mon Oct 10 23:51:02 2022 -0400
+
+    a4 bootstrap fall 2022
+
+[33mcommit 1c7bc7ebafe5c59d85567c76b075a9b284fa5888[m[33m ([m[1;31morigin/A3[m[33m, [m[1;32mA3[m[33m)[m
+Author: justynlewis <95379904+justynlewis@users.noreply.github.com>
+Date:   Sun Oct 2 21:43:06 2022 -0400
+
+    assignment 3 commit
+
+[33mcommit ac6a829c419b9073ddebb573d814d8e8f3356eea[m[33m ([m[1;31morigin/A2[m[33m, [m[1;32mmaster[m[33m, [m[1;32mA2[m[33m)[m
+Author: justynlewis <95379904+justynlewis@users.noreply.github.com>
+Date:   Sat Sep 24 16:54:44 2022 -0400
+
+    a2 third commit
+
+[33mcommit df2e0f168143f8436f17b166f796bc190b565904[m
+Author: justynlewis <95379904+justynlewis@users.noreply.github.com>
+Date:   Sat Sep 24 16:49:22 2022 -0400
+
+    a2 second commit
+
+[33mcommit 8b415a38b023d9577c5c2d6532159328944046b9[m
+Author: justynlewis <95379904+justynlewis@users.noreply.github.com>
+Date:   Sat Sep 24 16:34:56 2022 -0400
+
+    a2 html fall 2022
+
+[33mcommit 91dfff7d281ff0febe084522ff97f324a2103610[m
+Author: justynlewis <95379904+justynlewis@users.noreply.github.com>
+Date:   Sun Sep 18 15:15:06 2022 -0400
+
+    second commit
+
+[33mcommit a033a193a4cc3f7b52dac9f931152ad0003b465b[m
+Author: justynlewis <95379904+justynlewis@users.noreply.github.com>
+Date:   Sat Sep 17 18:28:18 2022 -0400
+
+    first commit
+
+[33mcommit 3f32e4f4f4a5b1c7fa766e49ca908110c2ac96f9[m
+Author: justynlewis <95379904+justynlewis@users.noreply.github.com>
+Date:   Sat Sep 17 18:22:08 2022 -0400
+
+    Initialize project using Create React App
